@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; SunOS 5.5.1 sun4u) [Netscape]">
+   <TITLE>Perceptual Smoothing and Segmentation of Colour Textures</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<B><FONT FACE="Arial,Helvetica"<FONT COLOR="#1111FF"><FONT SIZE=+3>Perceptual Smoothing and Segmentation of Colour Textures </FONT></FONT></FONT></B>
+<p>
+<HR noshade>
+Details and demo to come...
+<HR noshade>
+<ul>
+<li> M.&nbsp;Petrou, M.&nbsp;Mirmehdi, and M.&nbsp;Coors.  Perceptual smoothing and segmentation of colour textures. In <EM>Proceedings of the 5th European Conference on Computer Vision 98</EM>, Volume I, pages 623-639. Freiburg, Springer-Verlag, June 1998.<a href="http://www.cs.bris.ac.uk/Tools/Reports/Ps/1998-petrou.ps.gz">  725K gzipped Postscript</a>
+
+<p>
+
+<li> M.&nbsp;Mirmehdi and M.&nbsp;Petrou.  Perceptual versus gaussian smoothing for pattern-colour separability.  In <EM>Proceedings of the International Conference on Signal Processing and Communications</EM>, pages 136-140, Spain, February 1998.  <a href="http://www.cs.bris.ac.uk/Tools/Reports/Ps/1998-mirmehdi-1.ps.gz">  442K gzipped Postscript</a>
+<p>
+
+<li> M.&nbsp;Petrou, M.&nbsp;Mirmehdi, and M.&nbsp;Coors.  Multilevel probabilistic relaxation.  <EM>Proceedings of the Eighth British Machine Vision Conference 97</EM>, pages 60-69, BMVA Press, 1997.  <a href="http://www.cs.bris.ac.uk/Tools/Reports/Ps/1997-petrou.ps.gz">  268K gzipped Postscript</a>.
+</ul>
+
+<P>
+<hr noshade>
+Prof. M. Petrou is with the Department of Electronic and Electrical Engineering, University of Surrey, Guildford GU2 5XH, United Kingdom  
+<hr noshade>
+<address> <A HREF="http://www.cs.bris.ac.uk/~majid">Majid Mirmehdi</A>, 
+<a href="mailto:M.Mirmehdi@cs.bris.ac.uk">M.Mirmehdi@cs.bris.ac.uk</a>, May 1998</address> 
+<!--<IMG SRC="http://inferno.cs.bris.ac.uk/cgi-bin/nph-count?width=4&link=mmdemo2.html&show=NO">
+
+</BODY>
+</HTML>

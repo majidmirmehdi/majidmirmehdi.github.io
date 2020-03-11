@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-gb" xml:lang="en-gb">
+<head>
+   <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+   <link type='text/css' rel='stylesheet' href='/styles/cscontent.css' />
+   <link type='text/css' rel='stylesheet' href='/styles/csmain.css' />
+   <link rel="stylesheet" type="text/css" href="/styles/niftyCorners.css" />
+   <link rel="stylesheet" type="text/css" href="/styles/niftyPrint.css" media="print" />
+   <link rel='icon' id='csbrislink' href='/images/logo.ico' />
+
+   <script type='text/javascript' src='/scripts/nifty.js'></script>
+   <script type='text/javascript' src='/scripts/mainload.js'></script>
+   <script type='text/javascript' src='/scripts/pngfix.js'></script>
+   <script type='text/javascript' src='/tinymce/edit.js'>script</script>
+   <script type='text/javascript' src='/scripts/csyear.js'></script>
+   
+   <meta content='no-cache' http-equiv='Cache-Control' />
+   <meta content='no-cache' http-equiv='Pragma' />
+   <meta content='0' http-equiv='Expires' />
+
+<title>Professor Majid Mirmehdi</title>
+</head>
+<body id='age'>
+<div class='search'>
+   <div class='searchcontent'>
+         <form onsubmit="return (this.words.value != '')" method='get' class='searchform' action='http://www.google.co.uk/search'>
+            <div>
+               <input title='Search CS @ Bristol' type='text' name='q' class='searchfield' />
+               <input type='submit' value='search' name='sa' class='searchbutton' />
+               <input type='hidden' value='cs.bris.ac.uk' name='domains' />
+
+               <input type='hidden' value='cs.bris.ac.uk' name='sitesearch' />
+            </div>
+         </form>
+   </div>
+</div>
+<div class='iebox'>
+</div>
+<div class='yearnav'>
+   <div class='yearnavcontent'>
+      <div class='cont'>
+      <a class='yearlink' href='/lib/lastyear.jsp'>&lt;&lt;</a>&nbsp;<span id='year1' class='nowyeartext'>2006-7</span>&nbsp;<a class='yearlink' href='/lib/nextyear.jsp'>&gt;&gt;</a>
+
+      </div>
+   </div>
+</div>
+<div class='links'>
+   <ul class='nav'>
+         <li class='navitem'>
+         <a href="http://www.cs.bris.ac.uk" class='navlink'>Home</a>
+         <span class='navsep'>&nbsp;|&nbsp;</span>
+      </li>
+
+      <li class='navitem'>
+         <a href='http://www.cs.bris.ac.uk/theindex.html' class='navlink'>Index</a>
+         <span class='navsep'>&nbsp;|&nbsp;</span>
+      </li>
+      <li class='navitem'>
+         <a href='http://www.cs.bris.ac.uk/People/' class='navlink'>People</a>
+         <span class='navsep'>&nbsp;|&nbsp;</span>
+
+      </li>
+      <li class='navitem'>
+         <a href='http://www.cs.bris.ac.uk/Teaching/' class='navlink'>Teaching</a>
+         <span class='navsep'>&nbsp;|&nbsp;</span>
+      </li>
+      <li class='navitem'>
+         <a href='http://www.cs.bris.ac.uk/Research/' class='navlink'>Research</a>
+
+         <span class='navsep'>&nbsp;|&nbsp;</span>
+      </li> 
+      <li class='navitem'>
+         <a href='http://www.cs.bris.ac.uk/admissions/' class='navlink'>Study @ Bristol</a>
+      </li>
+      </ul>
+</div>
+<div class='header'>
+   <div class='headcontent'>
+
+      <div class='cslogo'>
+         <a href='http://www.cs.bris.ac.uk/' class='imglink'><img src='/images/CStrans_small.png' height='60' width='60' alt='Department Logo' class='pnghide' id='compscilogo' /></a>
+      </div>
+      <div class='unilogo'>
+         <a href='http://www.bris.ac.uk/' class='imglink'><img src='/images/unilogo.png' height='50' width='172' alt='University Logo' class='pnghide' id='univerlogo' /></a>
+      </div>
+      <div class='headtext'><span class='depttext'>Department of</span><br /><span class='compscitext'>Computer Science</span></div>
+      <div class='bannerpic'>&nbsp;<!-- Image loaded in CSS --></div>
+
+   </div>
+</div>
+
+<div class='content edit' id='editable'>
+
+<HR noshade>
+
+<TABLE> <TD>
+<IMG SRC="MM.jpg" ALT="Majid Mirmehdi", ALIGN=LEFT>
+<TD>
+<dl>
+<dd><h2>Prof. Majid Mirmehdi</h2>
+<h3>Professor of Computer Vision, Fellow IAPR</h3>
+<dd><a href="http://www.cs.bris.ac.uk/">Department of Computer Science</a>
+<dd><a href="http://www.bris.ac.uk/"> University of Bristol</a>   
+<dd><a href="http://www.cs.bris.ac.uk/Research/Vision/mvb.html">Merchant Venturers Building</a>                     
+<dd>Woodland Road, <a href="http://www.brisindex.co.uk/">Bristol</a> BS8 1UB, <a href="http://www.uktravel.com/index.html">UK</a>
+<dd>Tel: +44 (0)117-954 5139 , Fax: +44 (0)117-954 5208
+<dd>Email: <a href="mailto:M.Mirmehdi@cs.bris.ac.uk">M.Mirmehdi@cs.bris.ac.uk</a> </b>
+</dl>
+</TD> </TABLE>
+<hr noshade>
+<!--
+<IMG SRC="newanim.gif" ALT="NEW", ALIGN=LEFT> <a href="http://www.cs.bris.ac.uk/admissions/phd/news-item.jsp?nid=19">PhD Studentship available:</a> please note the strict eligibility criteria.
+<hr noshade>
+-->
+<b><font color=green> Notice </font>- I am unable to offer internships during the summer to overseas undergrduates, self-funded or otherwise.
+</b>
+
+<H2>Research  </H2>
+<ul>
+
+<!--
+<li>Fellow of the IAPR</li>
+<li><FONT FACE="Arial,Helvetica" color="aa0011"><b>RA Postion: <A HREF="http://www.bris.ac.uk/boris/jobs/ads?ID=49474">Leverhulme Trust Research Assistant post</a></b></font> 
+<li><FONT FACE="Arial,Helvetica" color="aa0011"><b>PhD Studentship 1: <A HREF="http://www.cs.bris.ac.uk/~majid/phdgwr.html">Great Western Research Studentship Available</a></b></font> 
+<li><FONT FACE="Arial,Helvetica" color="aa0011"><b>PhD Studentship 2: <A HREF="http://www.cs.bris.ac.uk/~majid/phdcase.html">Imaging Faraday EPSRC CASE Studentship Available</a></b></font> --> 
+<li>Interests: Computer Vision, Image Processing, Pattern Recognition, Parallel Processing.
+<li><A HREF="http://www.cs.bris.ac.uk/Research/Vision/"> Computer Vision Group</a>,  <A HREF="http://www.cs.bris.ac.uk/Research/Digitalmedia/">Digital Media Group</A>, <a href="http://www.brl.ac.uk/">Bristol Robotics Laboratory</a>
+<li><A HREF="http://www.cs.bris.ac.uk/~majid/mmpubs.html">Publications (pre-2009)</A>. Or see <A HREF="http://www.cs.bris.ac.uk/Publications/index.jsp"> CS Publications Server</A>
+<li><A HREF="http://www.cs.bris.ac.uk/~majid/research.html">Research and software</A>
+<li>RAs/PhDs: <A HREF="http://www.cs.bris.ac.uk/People/personal.jsp?key=6593">Adeline Paiement</A>, <A HREF="http://www.cs.bris.ac.uk/People/personal.jsp?key=6760">Shahbe Desa</A>, <A HREF="/~wang">Xiaosong Wang</A>, <A HREF="http://www.cs.bris.ac.uk/home/mcgonigl/">John McGonigle</A>, Daniel Blueman
+<li>Alumni - RAs/PhDs: <A HREF="/~hannuna">Sion Hannuna</A>, , <A HREF="/~johnc">John Chiverton</A>,  <A HREF="/~ronghua">Ronghua Yang</a>,  <A HREF="/~xie">Xianghua Xie</A>, <A HREF="/~calic">Janko Calic</A>, <A HREF="/~mevans">Michael Evans</A>, <A HREF="/~revell">James Revell</A>, <A HREF="/~monadjem">Amir Monadjemi</a>, <A HREF="/~porter">Sarah Porter</A>, <A HREF="/~osareh">Alireza Osareh</A>, RK Periasamy, Alison Holmes, Paul Clark 
+
+
+</ul>
+
+
+<H2> Teaching</H2>
+<ul>
+<!-- <li><a href="http://www.cs.bris.ac.uk/Teaching/Resources/COMSM2200">COMSM2200: Multimedia Processing</a> (MSc) -->
+
+<li><a href="http://www.cs.bris.ac.uk/Teaching/Resources/COMS30121">COMS30121: Image Processing and Computer Vision</a> (MSc/3rd Yr)
+
+
+<li><a href="http://www.cs.bris.ac.uk/Teaching/Resources/COMS21202">COMS21202: Signals, Pattern, and Symbols</a> (2nd Yr)
+
+<li><a href="http://www.cs.bris.ac.uk/Teaching/Resources/COMS22101/">COMS22101: Concurrency and Communications</a> (2nd Yr)
+
+<li><a href="https://www.cs.bris.ac.uk/diary/timetable.jsp?tab=1&username=majid">Teaching Timetable</a> 
+<li><a href="http://www.cs.bris.ac.uk/secure/majid/projects/StudentProjects.html">Student Projects  (BSc, MEng and MSc)</a>
+
+</ul>
+<!-- <IMG SRC="newanim.gif" HEIGHT=24 WIDTH=40> -->
+<H2>Administration</H2>
+<ul>
+<li> Director of <A HREF="http://www.cs.bris.ac.uk/Teaching/conversion/"> MSc Conversion Course in Computer Science</a>
+<!-- <li> Assignment of staff Teaching and Admin duties  -->
+<li> <a href="http://www.fen.bris.ac.uk/">Faculty</a> Representative on the <A HREF="http://www.bris.ac.uk/safe/Senate/">University Senate</a>
+<!-- <li> <a href="http://www.fen.bris.ac.uk/">Faculty</a> Representative on the University Ethics of Research Committee -->
+</ul>
+
+<H2>Other Activities</H2>
+<ul>
+<li> Adjunct Professor at the <A HREF="http://math.ipm.ac.ir/vision/index.html">Computer Vision Group, IPM, Iran</a>
+<li> Associate Editor of <A HREF="http://scitation.aip.org/IET-CVI">IET Computer Vision</a> 
+<li> Associate Editor of <A HREF="http://www.paaonline.net">Pattern Analysis and Applications</a> 
+<li> Advisory Editor of <A HREF="http://www.scientiairanica.ir">Scientia Iranica</a> 
+<li> Guest Editor: <ul> 
+<li><A HREF="http://ijdar.cfar.umd.edu/">IJDAR</a> <A HREF="http://www.cs.bris.ac.uk/~majid/SI-IJDAR/SI-IJDAR04.html">Special Issue</a></b></font> &nbsp;  
+<li> <A HREF="http://www.cs.bris.ac.uk/Events/BMVC2000/IVCissue.html">Special Issue of IVC journal on BMVC2000</a>
+</ul>
+<li> Chairman of the <A HREF="http://www.bmva.ac.uk/">British Machine Vision Association</a> 2005-2008
+<li> Steering Committee member of the Medical Image Understanding and Analysis conference <A HREF="http://www.miua.org.uk/">miua.org</a> 2005-2009
+<li> Publicity Officer of the <A HREF="http://www.bmva.ac.uk/">British Machine Vision Association</a> (2000-2005)
+<li> Member of <A HREF="http://www.iasted.com/">IASTED</a> Technical Committee on Image Processing (2000-2004)
+<li> Chair and Organiser: <A HREF="http://www.cs.bris.ac.uk/%7Emiua05/index.html">MIUA2005</A>
+<li> Co-Chair and Co-Organiser: <A HREF="http://conferences.iee.org/vie2005/">VIE2005</A> &nbsp; <A HREF="http://www.cs.bris.ac.uk/Events/CPA2001/">CPA2001</A> &nbsp; <A HREF="http://www.cs.bris.ac.uk/Events/CAAUK2001/">CAAUK2001</A> &nbsp;  <A HREF="http://www.cs.bris.ac.uk/Events/BMVC2000/">BMVC2000</A>
+<li> Tutorial and Demos Chair: <A HREF="http://www.icapr2005.org.uk/">ICAPR 2005</A>
+<li> Publicity Chair: <A href="http://www.fg2006.ecs.soton.ac.uk/">FG2006</a> &nbsp; <A HREF="http://www.ee.surrey.ac.uk/icpr04/">ICPR04</A> 
+<li> <A HREF="pcactivity.html">Program Committees</a>
+<li> <A HREF="http://www.bmva.ac.uk/">BMVA</A> Technical Meeting Chair/Co-Chair on 1- <A HREF="http://www.bmva.ac.uk/meetings/meetings/99/1Dec99/index.html">   Industrial Inspection</a> 2- <A HREF="http://www.bmva.ac.uk/meetings/meetings/old/meeting-1997-05-08.html"> Optimisation Issues in Computer Vision</FONT></a> 3- <A HREF="http://www.bmva.ac.uk/meetings/">Document and Text Recognition in Images and Video Sequences</a>. <br>
+<li> Member of <A HREF="http://www.epsrc.ac.uk">EPSRC</a> College (2006-09), 
+<A HREF="http://www.iet.org.uk">IET</a>, and Senior Member of <A HREF="http://www.ieee.org">IEEE</a>.
+</ul>
+<hr noshade>
+<address> <a href="mailto:M.Mirmehdi@cs.bris.ac.uk">M.Mirmehdi@cs.bris.ac.uk</a>, Aug 2008</address> 
+
+<!--<address><IMG SRC="/cgi-bin/ticket/majid?-w2-h1"></address>-->
+<!--<IMG SRC="http://inferno.cs.bris.ac.uk/cgi-bin/nph-count?width=4&link=mmindex.html&show=NO">-->
+
+<!-- GoStats.com Simple HTML based code -->
+<a href="http://monster.gostats.com/click.xml?4772" target="_top">
+<img src="http://monster.gostats.com/bin/count?a=4772&amp;t=1&amp;i=6&amp;z="
+style="border-width:0px;width:1px;height:1px" alt="free hit counter" 
+width="1" height="1" /></a><br />
+
+<font color=white>_</font></a><br />
+<!-- End GoStats.com Simple HTML based code -->
+
+<div id="eXTReMe"><a href="http://extremetracking.com/open?login=mirmehdi">
+<img src="http://t1.extreme-dm.com/i.gif" style="border: 0;"
+height="38" width="41" id="EXim" alt="eXTReMe Tracker" /></a>
+<script type="text/javascript"><!--
+var EXlogin='mirmehdi' // Login
+var EXvsrv='s10' // VServer
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+EXd.write("<img src=http://e1.extreme-dm.com",
+"/"+EXvsrv+".g?login="+EXlogin+"&amp;",
+"jv="+EXjv+"&amp;j=y&amp;srw="+EXw+"&amp;srb="+EXb+"&amp;",
+"l="+escape(EXd.referrer)+" height=1 width=1>");//-->
+</script><noscript><div id="neXTReMe"><img height="1" width="1" alt=""
+src="http://e1.extreme-dm.com/s10.g?login=mirmehdi&amp;j=n&amp;jv=n" />
+</div></noscript></div>
+
+</body> 
+</html>

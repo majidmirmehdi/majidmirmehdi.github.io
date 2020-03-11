@@ -1,0 +1,174 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; SunOS 5.5.1 sun4u) [Netscape]">
+   <TITLE>Detection and Tracking of Very Small Low Contrast Objects</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<B><FONT COLOR="#1111FF"><FONT SIZE=+3>Detection and Tracking of Very
+Small Low Contrast Objects</FONT></FONT></FONT></B>
+<BR><B><FONT COLOR="#892222"><FONT SIZE=+2>D. Davies, P. Palmer, and M. Mirmehdi</FONT></B>
+<p>
+There are many problems in which very small objects undergoing motion must be detected and then tracked. Examples may be found in the medical imaging, astronomical image processing, remote sensing, and military vision fields. For example, one of the most difficult goals of Automatic Target Recognition (ATR) is to spot incoming objects at long range, where the motion seems small and the SNR is poor,  and the system must be able to track such targets long enough to identify whether the  object is a friend or foe. 
+
+<p>
+We are interested in locating long-range moving objects in FLIR images where the
+object may only be a few pixels in size and has low contrast with its
+background. Simple methods of image differencing are therefore not
+appropriate. A more robust algorithm is needed that is fairly simple to compute,
+has the potential to run in real-time, and is relatively immune to noise. It must
+be emphasised that template matching methods are also inappropriate for this 
+problem as targets may be very small, and consequently have virtually no structure
+associated with them.
+<p>
+
+We exploit useful properties of wavelet filters to provide a method for 
+object detection even when the object size is as small as 6 pixels. We anticipate 
+that the object size and motion will change during the sequence. We have
+developed a high order prediction mechanism for use with a Kalman filter
+ to determine regions of interest which reduces the search space for generating
+hypothesised tracks. The method generates a hypothesis tree for the motion of
+target objects across the image sequence which is pruned using a <em> measure of
+interest</em> operator based upon the Kalman filter error estimates.
+<p>
+
+The MPEG movies below demonstrate the detection and tracking of mutiple small 
+objects (a fighter jet and a number of cars). The tracking also handles occlusion 
+and overlapping of the moving objects. More details may be found in 
+: 
+<ul>
+<LI>
+<!-- REFERENCE "1998-davies-0" -->
+<!--MkFrame-->D. Davies,
+<!--MkFrame-->P. L. Palmer,
+<!--MkFrame--> and M. Mirmehdi.
+<!--MkFrame--><A HREF="/Tools/Reports/Abstracts/1998-davies-0.html">Robust tracker of small,
+<!--MkFrame-->  fast-moving low-contrast targets</A>.
+<!--MkFrame-->In <I>Proceedings of IX European Signal Processing Conference, Volume III</I>,
+<!--MkFrame-->  pages 1545--1548. Typorama Editions, September 1998.
+<LI>
+<!-- REFERENCE "1998-davies-1" -->
+<!--MkFrame-->D. Davies,
+<!--MkFrame-->P. L. Palmer,
+<!--MkFrame--> and M. Mirmehdi.
+<!--MkFrame--><A HREF="/Tools/Reports/Abstracts/1998-davies-1.html">Detection and tracking of
+<!--MkFrame-->  very small low-contrast objects</A>.
+<!--MkFrame-->In <I>Proceedings of the 9th British Machine Vision Conference</I>, pages
+<!--MkFrame-->  599--608. BMVA Press, September 1998.
+
+</ul>
+<p>
+<hr>
+<p>
+ Below we see the original FLIR image sequence taken from a stationary camera 
+ looking over a valley. This scene contains multiple moving objects that are not 
+ immediately obvious. The principal object of interest is a small plane. It 
+ commences its path at (column,row) location = (101,293) in frame 1. It continues 
+ to move more or less horizontally from right to left for about 10 frames until
+ about frames 8-15 where it undertakes a turning manoeuvre roughly around 
+ (57,285). By frame 19 the plane starts its principal run from this point in an 
+ essentially horizontal trajectory from left to right. During this phase, the plane
+ 
+ is also approaching the camera and consequently becomes both larger as well as 
+ appears to be travelling faster. By frame 49 a final upward sweep is made at rough
+ly 
+ (301,287), and by frame 58 it is flying almost entirely vertically along column 36
+5.
+ By this stage clear structural details of the plane are visible. We can see the ch
+anges
+ in pose arising from the plane's manoeuvre. 
+ <p>
+
+ <p>
+ However, this is not all that is happening. The faint line running from (0,408)->(
+512,443)
+ is actually a road and throughout the sequence vehicles can be found moving along 
+it. They are 
+ essentially represented by small "hotspots" associated with the engine or headligh
+ts. These 
+ hotspots, however, have insufficient contrast with their 
+ surroundings to be extracted with much reliability by a standard differencing meth
+od. 
+<p>
+
+
+<center>
+<A HREF="http://www.cs.bris.ac.uk/~majid/Research/SmallObj/seq1.mpg"><IMG SRC="icon10.gif" ALIGN=middle ></A><A HREF="http://www.cs.bris.ac.uk/~majid/Research/SmallObj/seq1.mpg">
+Original MPEG Sequence</A>
+</center>
+<hr>
+<p> 
+In the next sequence we show the results of the tracking algorithm superimposed on 
+the 
+images. Multiple targets are 
+detected by correlating motion information over several consecutive frames.  
+The tracked objects are marked white and are determined by evaluating the correlati
+on
+with greylevel values.        
+<p>
+<p> 
+The plane is detected in frames 2 and 3 in its original right to left motion. It is
+ lost 
+during the turning manoeuvre since there is little relative motion during this phas
+e. 
+The plane is detected again  in frame 22 on its principal run from left to right, a
+fter 
+which it is tracked succesfully to the end of the sequence. The object still has 
+very low SNR when it is first detected illustrating the robustness of the method.
+Towards the end of the 
+sequence the shape of the plane is well represented by the white marking pixels, an
+d 
+consequently this allows for better determination of pose.   
+<p>
+<p>
+ There are between 2-6 moving objects on the road at any one time, of which only a 
+couple 
+ are usually extractable. The objects, while travelling along the road, are obscure
+d 
+ by hedges and trees, and so establishing consistent motion is made 
+ more difficult. A particularly interesting sequence occurs between frames 5-12 in 
+the 
+ area (23-79,400-430), where two cars approach, pass each other (in frame 9) and 
+ continue on. 
+<p>
+
+<center>
+<A HREF="http://www.ee.surrey.ac.uk/EE/VSSP/demos/smallobj/seq2.mpg"><IMG SRC="icon
+10.gif" ALIGN=middle ></A><A HREF="http://www.ee.surrey.ac.uk/EE/VSSP/demos/smallob
+j/seq2.mpg">
+Processed MPEG Sequence</A>.
+</center>
+
+
+<hr>
+<B><FONT FACE="Arial,Helvetica"<FONT COLOR="#1111FF"><FONT SIZE=+3>Related Work</FONT></FONT></FONT></B><br>
+ Once the object is detected, it must be recognised. This may prove 
+difficult at long range as the object will comprise a few pixels only with almost
+no visible structural information. One approach would be to zoom in on the object 
+given adaptable optical capability. Assuming adaptive optics is available, how can 
+we determine the best zoom to give optimal magnification? This issue is considered 
+in:
+<ul>
+<li>
+M. Mirmehdi, P.L. Palmer, and J. Kittler. <a href="http://www.cs.bris.ac.uk/Tools/Reports/Abstracts/mirmehdi-mpk97b.html">Towards optimal zoom for automatic target recognition</a>. In Proceedings of the Tenth Scandinavian Conference in Image Analysis, Volume I, pages 447-453, 1997.
+<li>
+M.&nbsp;Mirmehdi, P.L. Palmer, and J.&nbsp;Kittler.
+<a href="http://www.cs.bris.ac.uk/Tools/Reports/Abstracts/mirmehdi-mpk97c.html"> Using target variance for optimum zoom setting in ATR</a>.
+<EM>IEE Electronic Letters</EM>, 33(6):479-480, 1997.
+</ul>
+
+<P>
+<hr>
+Mr Daniel Davies, Dr. Phil Palmer, and Prof. J. Kittler are with the Department of Electronic and Electrical Engineering, University of Surrey, Guildford GU2 5XH, United Kingdom  
+<hr>
+<address> <A HREF="http://www.ee.surrey.ac.uk/Research/VSSP">Daniel Davies</A>, 
+<a href="mailto:D.Davies@ee.surrey.ac.uk">D.Davies@ee.surrey.ac.uk</a></address> 
+<address> <A HREF="http://www.ee.surrey.ac.uk/Research/VSSP">Phil Palmer</A>, 
+<a href="mailto:P.Palmer@ee.surrey.ac.uk">P.Palmer@ee.surrey.ac.uk</a></address> 
+<address> <A HREF="http://www.cs.bris.ac.uk/~majid">Majid Mirmehdi</A>, 
+<a href="mailto:M.Mirmehdi@cs.bris.ac.uk">M.Mirmehdi@cs.bris.ac.uk</a>, May 1998</address> 
+<!--<IMG SRC="http://inferno.cs.bris.ac.uk/cgi-bin/nph-count?width=4&link=mmdemo1.html&show=NO">
+
+</BODY>
+</HTML>

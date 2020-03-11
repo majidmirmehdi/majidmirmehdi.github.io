@@ -1,0 +1,79 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; SunOS 5.5.1 sun4u) [Netscape]">
+   <TITLE>Detection and Tracking of Very Small Low Contrast Objects</TITLE>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<B><FONT FACE="Arial,Helvetica"<FONT COLOR="#1111FF"><FONT SIZE=+3>Detection and Tracking of Very
+Small Low Contrast Objects</FONT></FONT></FONT></B>
+<BR><B><FONT COLOR="#892222"><FONT SIZE=+2>D. Davies, P. Palmer, and M. Mirmehdi</FONT></FONT></B>
+<p>
+There are many problems in which very small objects undergoing motion must be detected and then tracked. Examples may be found in the medical imaging, astronomical image processing, remote sensing, and military vision fields. For example, one of the most difficult goals of Automatic Target Recognition (ATR) is to spot incoming objects at long range, where the motion seems small and the SNR is poor,  and the system must be able to track such targets long enough to identify whether the  object is a friend or foe. 
+
+<p>
+We are interested in locating long-range moving objects in FLIR images where the
+object may only be a few pixels in size and has low contrast with its
+background. Simple methods of image differencing are therefore not
+appropriate. A more robust algorithm is needed that is fairly simple to compute,
+has the potential to run in real-time, and is relatively immune to noise. It must
+be emphasised that template matching methods are also inappropriate for this 
+problem as targets may be very small, and consequently have virtually no structure
+associated with them.
+<p>
+
+We exploit useful properties of wavelet filters to provide a method for 
+object detection even when the object size is as small as 6 pixels. We anticipate 
+that the object size and motion will change during the sequence. We have
+developed a high order prediction mechanism for use with a Kalman filter
+ to determine regions of interest which reduces the search space for generating
+hypothesised tracks. The method generates a hypothesis tree for the motion of
+target objects across the image sequence which is pruned using a <em> measure of
+interest</em> operator based upon the Kalman filter error estimates.
+<p>
+The MPEG movies below demonstrate the detection and tracking of mutiple small 
+objects (a fighter jet and a number of cars). The tracking also handles occlusion 
+and overlapping of the moving objects. More details may be found in 
+: 
+<ul>
+<li> D. Davies, P.L. Palmer, and M. Mirmehdi.
+Detection and tracking of very small low-contrast objects.
+<EM>To appear in the 9th BMVC</EM>, 1998. <em>(postscript available soon)</em>
+<li> D. Davies, P.L. Palmer, and M. Mirmehdi. <A HREF="http://www.cs.bris.ac.uk/~majid/Research/SmallObj/dpm98a.ps.gz">Robust tracker of small, fast-moving low-contrast targets</a>. To appear in the 9th European Conference in Signal Processing, Greece, 1998. 
+</ul>
+<p>
+<A HREF="http://www.cs.bris.ac.uk/~majid/Research/SmallObj/seq1.mpg"><IMG SRC="icon10.gif" ALIGN=middle ></A><A HREF="http://www.cs.bris.ac.uk/~majid/Research/SmallObj/seq1.mpg">
+Original MPEG Sequence</A>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<A HREF="http://www.cs.bris.ac.uk/~majid/Research/SmallObj/seq2.mpg"><IMG SRC="icon10.gif" ALIGN=middle ></A><A HREF="http://www.cs.bris.ac.uk/~majid/Research/SmallObj/seq2.mpg">
+Processed MPEG Sequence</A>.
+
+
+<hr>
+<B><FONT FACE="Arial,Helvetica"<FONT COLOR="#1111FF"><FONT SIZE=+3>Related Work</FONT></FONT></FONT></B><br>
+ Once the object is detected, it must be recognised. This may prove 
+difficult at long range as the object will comprise a few pixels only with almost
+no visible structural information. One approach would be to zoom in on the object 
+given adaptable optical capability. Assuming adaptive optics is available, how can 
+we determine the best zoom to give optimal magnification? This issue is considered 
+in:
+<ul>
+<li>
+M. Mirmehdi, P.L. Palmer, and J. Kittler. <a href="http://www.cs.bris.ac.uk/Tools/Reports/Abstracts/mirmehdi-mpk97b.html">Towards optimal zoom for automatic target recognition</a>. In Proceedings of the Tenth Scandinavian Conference in Image Analysis, Volume I, pages 447-453, 1997.
+<li>
+M.&nbsp;Mirmehdi, P.L. Palmer, and J.&nbsp;Kittler.
+Using target variance for optimum zoom setting in ATR.
+<EM>IEE Electronic Letters</EM>, 33(6):479-480, 1997.
+</ul>
+
+<P>
+<hr>
+Mr Daniel Davies, Dr. Phil Palmer, and Prof. J. Kittler are with the Department of Electronic and Electrical Engineering, University of Surrey, Guildford GU2 5XH, United Kingdom  
+<hr>
+<address> <A HREF="http://www.cs.bris.ac.uk/~majid">Majid Mirmehdi</A>, 
+<a href="mailto:M.Mirmehdi@cs.bris.ac.uk">M.Mirmehdi@cs.bris.ac.uk</a>, May 1998</address> 
+<!--<IMG SRC="http://inferno.cs.bris.ac.uk/cgi-bin/nph-count?width=4&link=mmdemo1.html&show=NO">
+
+</BODY>
+</HTML>
